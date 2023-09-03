@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+    <h1>Dodaj link</h1>
+    <div id="adminPanel">
+        <h2>Panel Administratora</h2>
+        <input type="password" id="adminPassword" placeholder="Hasło administratora">
+        <button onclick="authenticateAdmin()">Zaloguj</button>
+    </div>
+    <input type="text" id="videoLink" placeholder="Wprowadź link do filmu na YouTube" disabled>
+    <button id="addVideoButton" onclick="addVideo()" disabled>Dodaj film</button>
+    <div id="videoList"></div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
